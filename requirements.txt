@@ -1,0 +1,5 @@
+ultralytics
+opencv-python
+lapx            # ByteTrack needs this; listing it avoids a failed auto-install on first run
+# pyserial      # only for --use-relay (real Arduino over serial); not needed for laptop testing
+# smbus2        # only for --use-lcd (LCD I2C display on Raspberry Pi); not needed for laptop testing
